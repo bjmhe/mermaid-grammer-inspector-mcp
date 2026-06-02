@@ -81,11 +81,11 @@ set the config
 
 <!-- automd:contributors license=MIT -->
 
-Published under the [MIT](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE) license.
-Made by [community](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/graphs/contributors) 💛
+Published under the [MIT](https://github.com/bjmhe/mermaid_grammer_inspector_mcp/blob/main/LICENSE) license.
+Made by [community](https://github.com/bjmhe/mermaid_grammer_inspector_mcp/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/betterhyq/mermaid_grammer_inspector_mcp/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=betterhyq/mermaid_grammer_inspector_mcp" />
+<a href="https://github.com/bjmhe/mermaid_grammer_inspector_mcp/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=bjmhe/mermaid_grammer_inspector_mcp" />
 </a>
 
 <!-- /automd -->
