@@ -13,7 +13,7 @@ jobs:
           node-version: 24
           auto-install: 'false'
       - name: Clean Puppeteer Cache
-        run: rm -rf ~/.cache/puppeteer/chrome-headless-shell
+        run: rm -rf /home/runner/.cache/puppeteer/chrome-headless-shell
 
       - name: Install dependencies
         run: PUPPETEER_SKIP_DOWNLOAD=true vp install
