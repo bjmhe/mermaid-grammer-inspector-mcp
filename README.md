@@ -18,22 +18,22 @@ Install the package:
 
 ```sh
 # npm
-npm installg mermaid-grammer-inspector-mcp
+npm installg @bjmhe/mermaid-grammer-inspector-mcp
 
 # yarn
-yarn addg mermaid-grammer-inspector-mcp
+yarn addg @bjmhe/mermaid-grammer-inspector-mcp
 
 # pnpm
-pnpm addg mermaid-grammer-inspector-mcp
+pnpm addg @bjmhe/mermaid-grammer-inspector-mcp
 
 # bun
-bun installg mermaid-grammer-inspector-mcp
+bun installg @bjmhe/mermaid-grammer-inspector-mcp
 
 # deno
-deno installg npm:mermaid-grammer-inspector-mcp
+deno installg npm:@bjmhe/mermaid-grammer-inspector-mcp
 
 # vp
-vp installg mermaid-grammer-inspector-mcp
+vp installg @bjmhe/mermaid-grammer-inspector-mcp
 ```
 
 <!-- /automd -->

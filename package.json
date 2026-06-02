@@ -1,5 +1,5 @@
 {
-  "name": "mermaid-grammer-inspector-mcp",
+  "name": "@bjmhe/mermaid-grammer-inspector-mcp",
   "version": "1.0.7",
   "description": "A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities",
   "keywords": [
