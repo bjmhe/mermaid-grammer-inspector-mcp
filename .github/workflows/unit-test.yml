@@ -12,6 +12,7 @@ jobs:
         with:
           node-version: 24
           auto-install: 'false'
+
       - name: Clean Puppeteer Cache
         run: rm -rf "$HOME/.cache/puppeteer"
 
