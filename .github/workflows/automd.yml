@@ -1,0 +1,32 @@
+name: Automd
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: ["main"]
+
+jobs:
+  automd:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Setup Vite Plus
+        uses: bjmhe/workflows/setup-vp@main
+        with:
+          node-version: 24
+          persist-credentials: true
+
+      - name: Checkout PR head branch
+        if: github.event_name == 'pull_request'
+        run: git checkout -B "$GITHUB_HEAD_REF" "origin/$GITHUB_HEAD_REF"
+
+      - name: Automd
+        run: vpx automd
+
+      - name: Docs
+        run: vpx bjmhe fetch
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
