@@ -44,7 +44,9 @@
     "dev": "vp pack --watch",
     "release": "bumpp",
     "prepublishOnly": "vp run build",
-    "postinstall": "npx puppeteer browsers install chrome-headless-shell"
+    "puppeteer:clean": "rm -rf ~/.cache/puppeteer/chrome-headless-shell",
+    "puppeteer:install": "npx puppeteer browsers install chrome-headless-shell",
+    "postinstall": "vp run puppeteer:clean && vp run puppeteer:install"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.24.3",
