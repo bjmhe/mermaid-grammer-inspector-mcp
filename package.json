@@ -44,7 +44,7 @@
     "dev": "vp pack --watch",
     "release": "bumpp",
     "prepublishOnly": "vp run build",
-    "chrome": "npx puppeteer browsers install chrome-headless-shell"
+    "postinstall": "npx puppeteer browsers install chrome-headless-shell"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.24.3",
