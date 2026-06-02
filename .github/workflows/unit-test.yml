@@ -1,19 +1,28 @@
 name: Unit Test
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
-permissions: {}
+  workflow_dispatch:
 
 jobs:
   unit-test:
-    uses: bjmhe/workflows/.github/workflows/unit-test.yml@vp
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Vite Plus
+        uses: bjmhe/workflows/setup-vp@vp
+        with:
+          node-version: 24
+          auto-install: false
+      - name: Clean Puppeteer Cache
+        run: rm -rf ~/.cache/puppeteer/chrome-headless-shell
 
-  coverage:
-    uses: bjmhe/workflows/.github/workflows/coverage.yml@vp
-    needs: unit-test
-    permissions:
-      id-token: write
+      - name: Install dependencies
+        run: PUPPETEER_SKIP_DOWNLOAD=true vp install
+
+      - name: Install Puppeteer
+        run: npx puppeteer browsers install chrome-headless-shell
+
+      - name: Build
+        run: vp run build
+
+      - name: Test
+        run: vp test
