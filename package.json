@@ -46,7 +46,7 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "commander": "14.0.2",
+    "commander": "15.0.0",
     "fastmcp": "3.25.3",
     "zod": "4.1.13"
   },
