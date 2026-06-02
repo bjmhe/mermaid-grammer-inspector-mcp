@@ -87,7 +87,6 @@
 
 ## v0.0.1
 
-
 ### 🚀 Enhancements
 
 - Finish the base function ([46120eb](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/commit/46120eb))
@@ -120,4 +119,3 @@
 ### ❤️ Contributors
 
 - Heyongqi10 <heyongqi10@jd.com>
-

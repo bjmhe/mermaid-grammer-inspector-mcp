@@ -1,7 +1,7 @@
 allowBuilds:
-  '@parcel/watcher': true
-  '@prisma/engines': set this to true or false
-  '@swc/core': set this to true or false
+  "@parcel/watcher": true
+  "@prisma/engines": set this to true or false
+  "@swc/core": set this to true or false
   better-sqlite3: set this to true or false
   bufferutil: set this to true or false
   canvas: set this to true or false
@@ -23,13 +23,13 @@ catalog:
 minimumReleaseAge: 0
 
 overrides:
-  vite: 'catalog:'
-  vitest: 'catalog:'
+  vite: "catalog:"
+  vitest: "catalog:"
 
 peerDependencyRules:
   allowAny:
     - vite
     - vitest
   allowedVersions:
-    vite: '*'
-    vitest: '*'
+    vite: "*"
+    vitest: "*"

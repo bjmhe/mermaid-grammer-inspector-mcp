@@ -1,6 +1,6 @@
 # <img src="https://mermaid.js.org/favicon.svg" height="24"/> Mermaid Grammer Inspector
 
-[![mcp server](https://badge.mcpx.dev?type=server 'MCP Server')](https://modelcontextprotocol.io/docs/getting-started/intro)
+[![mcp server](https://badge.mcpx.dev?type=server "MCP Server")](https://modelcontextprotocol.io/docs/getting-started/intro)
 [![Mermaid-Grammer-Inspector MCP server](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector/badges/score.svg)](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector)
 [![npm version](https://img.shields.io/npm/v/@betterhyq/mermaid-grammer-inspector-mcp?color=orange)](https://npmjs.com/package/@betterhyq/mermaid-grammer-inspector-mcp)
 [![npm downloads](https://img.shields.io/npm/dm/@betterhyq/mermaid-grammer-inspector-mcp?color=yellow)](https://npm.chart.dev/@betterhyq/mermaid-grammer-inspector-mcp)
@@ -44,10 +44,7 @@ deno installg npm:@betterhyq/mermaid-grammer-inspector-mcp
       "command": "npx",
       "type": "stdio",
       "transportType": "stdio",
-      "args": [
-        "-y",
-        "mermaid-grammer-inspector"
-      ]
+      "args": ["-y", "mermaid-grammer-inspector"]
     }
   }
 }

@@ -1,9 +1,12 @@
 import { lib } from "@bjmhe/viteplus-preset";
 
-export default lib({}, {
+export default lib(
+  {},
+  {
     pack: {
-        exports: {
-            bin: true,
-          },
-    }
-});
+      exports: {
+        bin: true,
+      },
+    },
+  },
+);

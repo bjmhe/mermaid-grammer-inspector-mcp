@@ -1,69 +1,69 @@
 {
-	"name": "@bjmhe/mermaid-grammer-inspector-mcp",
-	"mcpName": "Mermaid Grammer Inspector MCP",
-	"description": "A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities",
-	"version": "1.0.6",
-	"keywords": [
-		"AI",
-		"Agent",
-		"MCP",
-		"Mermaid"
-	],
-	"license": "MIT",
-	"type": "module",
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"publishConfig": {
-		"access": "public",
-		"registry": "https://registry.npmjs.org/"
-	},
-	"bin": {
-		"mermaid-grammer-inspector-mcp": "./dist/index.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/betterhyq/mermaid_grammer_inspector_mcp.git"
-	},
-	"scripts": {
-		"build": "vp pack",
-		"dev": "vp pack --watch",
-		"release": "bumpp",
-		"prepublishOnly": "vp run build",
-		"chromel": "npx puppeteer browsers install chrome-headless-shell"
-	},
-	"peerDependencies": {
-		"@mermaid-js/mermaid-cli": "11.12.0",
-		"puppeteer": "23.11.1"
-	},
-	"dependencies": {
-		"@modelcontextprotocol/sdk": "1.24.3",
-		"commander": "14.0.2",
-		"fastmcp": "3.25.3",
-		"zod": "4.1.13"
-	},
-	"devDependencies": {
-		"vite-plus": "^0.1.24",
-		"@arethetypeswrong/core": "^0.18.3",
-		"@bjmhe/automd": "^0.0.7",
-		"@bjmhe/bjmhe": "^1.0.2",
-		"@bjmhe/viteplus-preset": "^2.0.3",
-		"@tsconfig/node24": "^24.0.4",
-		"@types/node": "^25.9.1",
-		"@typescript/native-preview": "7.0.0-dev.20260601.1",
-		"@vitest/coverage-v8": "^4.1.8",
-		"bumpp": "^11.1.0",
-		"publint": "^0.3.21",
-		"tsnapi": "^0.3.3",
-		"typescript": "^6.0.3",
-		"unplugin-unused": "^0.5.7"
-	},
-	"packageManager": "pnpm@10.13.1",
-	"module": "./dist/index.js",
-	"exports": {
-		".": "./dist/index.js",
-		"./package.json": "./package.json"
-	}
+  "name": "@bjmhe/mermaid-grammer-inspector-mcp",
+  "version": "1.0.6",
+  "description": "A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities",
+  "keywords": [
+    "AI",
+    "Agent",
+    "MCP",
+    "Mermaid"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betterhyq/mermaid_grammer_inspector_mcp.git"
+  },
+  "bin": {
+    "mermaid-grammer-inspector-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "vp pack",
+    "dev": "vp pack --watch",
+    "release": "bumpp",
+    "prepublishOnly": "vp run build",
+    "chromel": "npx puppeteer browsers install chrome-headless-shell"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.24.3",
+    "commander": "14.0.2",
+    "fastmcp": "3.25.3",
+    "zod": "4.1.13"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/core": "^0.18.3",
+    "@bjmhe/automd": "^0.0.7",
+    "@bjmhe/bjmhe": "^1.0.2",
+    "@bjmhe/viteplus-preset": "^2.0.3",
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^25.9.1",
+    "@typescript/native-preview": "7.0.0-dev.20260601.1",
+    "@vitest/coverage-v8": "^4.1.8",
+    "bumpp": "^11.1.0",
+    "publint": "^0.3.21",
+    "tsnapi": "^0.3.3",
+    "typescript": "^6.0.3",
+    "unplugin-unused": "^0.5.7",
+    "vite-plus": "^0.1.24"
+  },
+  "peerDependencies": {
+    "@mermaid-js/mermaid-cli": "11.12.0",
+    "puppeteer": "23.11.1"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "mcpName": "Mermaid Grammer Inspector MCP"
 }
