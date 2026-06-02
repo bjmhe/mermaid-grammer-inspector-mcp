@@ -39,6 +39,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
+    "test": "vp test",
     "build": "vp pack",
     "dev": "vp pack --watch",
     "release": "bumpp",
@@ -74,5 +75,6 @@
   "engines": {
     "node": ">=24.16.0"
   },
-  "packageManager": "pnpm@11.4.0"
+  "packageManager": "pnpm@11.4.0",
+  "mcpName": "Mermaid Grammer Inspector MCP"
 }
