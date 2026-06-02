@@ -46,7 +46,7 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.24.3",
+    "@modelcontextprotocol/sdk": "1.29.0",
     "commander": "14.0.2",
     "fastmcp": "3.25.3",
     "zod": "4.1.13"
