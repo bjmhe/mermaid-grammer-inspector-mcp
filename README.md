@@ -1,12 +1,10 @@
 # <img src="https://mermaid.js.org/favicon.svg" height="24"/> Mermaid Grammer Inspector
 
-[![mcp server](https://badge.mcpx.dev?type=server "MCP Server")](https://modelcontextprotocol.io/docs/getting-started/intro)
 [![Mermaid-Grammer-Inspector MCP server](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector/badges/score.svg)](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector)
 [![npm version](https://npmx.dev/api/registry/badge/version/@bjmhe/mermaid-grammer-inspector-mcp)](https://npmjs.com/package/@bjmhe/mermaid-grammer-inspector-mcp)
 [![npm downloads](https://npmx.dev/api/registry/badge/downloads/@bjmhe/mermaid-grammer-inspector-mcp)](https://npm.chart.dev/@bjmhe/mermaid-grammer-inspector-mcp)
 [![bundle size](https://npmx.dev/api/registry/badge/size/@bjmhe/mermaid-grammer-inspector-mcp)](https://bundlephobia.com/package/@bjmhe/mermaid-grammer-inspector-mcp)
 [![license](https://npmx.dev/api/registry/badge/license/@bjmhe/mermaid-grammer-inspector-mcp)](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE)
-[![engine](https://npmx.dev/api/registry/badge/engines/@bjmhe/mermaid-grammer-inspector-mcp)](https://npmx.dev/api/registry/badge/engines/@bjmhe/mermaid-grammer-inspector-mcp)
 
 [![Mermaid-Grammer-Inspector MCP server](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector/badges/card.svg)](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector)
 
