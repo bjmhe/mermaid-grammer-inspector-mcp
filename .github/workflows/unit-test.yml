@@ -18,8 +18,8 @@ jobs:
       - name: Install dependencies
         run: PUPPETEER_SKIP_DOWNLOAD=true vp install
 
-      - name: Install Puppeteer Browser
-        run: npx puppeteer browsers install chrome@stable
+      - name: Install Puppeteer
+        run: npx puppeteer browsers install chrome-headless-shell
 
       - name: Build
         run: vp run build
