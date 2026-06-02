@@ -13,6 +13,7 @@ allowBuilds:
   prisma: set this to true or false
   puppeteer: true
   sqlite3: set this to true or false
+  tldjs: true
   unrs-resolver: set this to true or false
   utf-8-validate: set this to true or false
 
