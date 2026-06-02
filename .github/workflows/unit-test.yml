@@ -11,7 +11,7 @@ jobs:
         uses: bjmhe/workflows/setup-vp@vp
         with:
           node-version: 24
-          auto-install: false
+          auto-install: 'false'
       - name: Clean Puppeteer Cache
         run: rm -rf ~/.cache/puppeteer/chrome-headless-shell
 
