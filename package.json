@@ -1,5 +1,5 @@
 {
-	"name": "@betterhyq/mermaid-grammer-inspector-mcp",
+	"name": "@bjmhe/mermaid-grammer-inspector-mcp",
 	"mcpName": "Mermaid Grammer Inspector MCP",
 	"description": "A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities",
 	"version": "1.0.6",
@@ -79,10 +79,5 @@
 		"vite-plus": "catalog:",
 		"vitest": "4.0.15"
 	},
-	"packageManager": "pnpm@10.13.1",
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	}
+	"packageManager": "pnpm@10.13.1"
 }
