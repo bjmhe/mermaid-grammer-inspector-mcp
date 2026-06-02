@@ -2,9 +2,11 @@
 
 [![mcp server](https://badge.mcpx.dev?type=server "MCP Server")](https://modelcontextprotocol.io/docs/getting-started/intro)
 [![Mermaid-Grammer-Inspector MCP server](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector/badges/score.svg)](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector)
-[![npm version](https://img.shields.io/npm/v/@betterhyq/mermaid-grammer-inspector-mcp?color=orange)](https://npmjs.com/package/@betterhyq/mermaid-grammer-inspector-mcp)
-[![npm downloads](https://img.shields.io/npm/dm/@betterhyq/mermaid-grammer-inspector-mcp?color=yellow)](https://npm.chart.dev/@betterhyq/mermaid-grammer-inspector-mcp)
-[![license](https://img.shields.io/github/license/betterhyq/mermaid_grammer_inspector_mcp?color=yellow)](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE)
+[![npm version](https://npmx.dev/api/registry/badge/version/@bjmhe/mermaid-grammer-inspector-mcp)](https://npmjs.com/package/@bjmhe/mermaid-grammer-inspector-mcp)
+[![npm downloads](https://npmx.dev/api/registry/badge/downloads/@bjmhe/mermaid-grammer-inspector-mcp)](https://npm.chart.dev/@bjmhe/mermaid-grammer-inspector-mcp)
+[![bundle size](https://npmx.dev/api/registry/badge/size/@bjmhe/mermaid-grammer-inspector-mcp)](https://bundlephobia.com/package/@bjmhe/mermaid-grammer-inspector-mcp)
+[![license](https://npmx.dev/api/registry/badge/license/@bjmhe/mermaid-grammer-inspector-mcp)](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE)
+[![engine](https://npmx.dev/api/registry/badge/engines/@bjmhe/mermaid-grammer-inspector-mcp)](https://npmx.dev/api/registry/badge/engines/@bjmhe/mermaid-grammer-inspector-mcp)
 
 [![Mermaid-Grammer-Inspector MCP server](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector/badges/card.svg)](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector)
 
@@ -18,19 +20,22 @@ Install the package:
 
 ```sh
 # npm
-npm installg @betterhyq/mermaid-grammer-inspector-mcp
+npm installg @bjmhe/mermaid-grammer-inspector-mcp
 
 # yarn
-yarn addg @betterhyq/mermaid-grammer-inspector-mcp
+yarn addg @bjmhe/mermaid-grammer-inspector-mcp
 
 # pnpm
-pnpm addg @betterhyq/mermaid-grammer-inspector-mcp
+pnpm addg @bjmhe/mermaid-grammer-inspector-mcp
 
 # bun
-bun installg @betterhyq/mermaid-grammer-inspector-mcp
+bun installg @bjmhe/mermaid-grammer-inspector-mcp
 
 # deno
-deno installg npm:@betterhyq/mermaid-grammer-inspector-mcp
+deno installg npm:@bjmhe/mermaid-grammer-inspector-mcp
+
+# vp
+vp installg @bjmhe/mermaid-grammer-inspector-mcp
 ```
 
 <!-- /automd -->
