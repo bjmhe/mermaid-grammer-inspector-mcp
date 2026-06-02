@@ -11,8 +11,8 @@
 	],
 	"license": "MIT",
 	"type": "module",
-	"main": "./dist/index.mjs",
-	"types": "./dist/index.d.mts",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"files": [
 		"dist"
 	],
@@ -21,33 +21,18 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"bin": {
-		"mermaid-grammer-inspector": "dist/index.mjs"
+		"mermaid-grammer-inspector-mcp": "./dist/index.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/betterhyq/mermaid_grammer_inspector_mcp.git"
 	},
 	"scripts": {
-		"test": "vitest run",
-		"test:watch": "vitest",
-		"test:coverage": "vitest run --coverage",
-		"build": "tsc && unbuild",
-		"start": "node ./dist/index.mjs",
-		"start:http": "node ./dist/index.mjs --http --port=4000",
-		"check": "biome check --write --unsafe",
-		"bump": "changelogen --clean --bump --push",
-		"bump:major": "pnpm run bump --major",
-		"bump:minor": "pnpm run bump --minor",
-		"bump:patch": "pnpm run bump --patch",
-		"release": "changelogen --clean --release --push",
-		"release:major": "pnpm run release --major",
-		"release:minor": "pnpm run release --minor",
-		"release:patch": "pnpm run release --patch",
-		"prepare": "husky",
-		"commit": "cz",
-		"prepublishOnly": "pnpm run build",
-		"postpublish": "automd",
-		"postinstall": "npx puppeteer browsers install chrome-headless-shell"
+		"build": "vp pack",
+		"dev": "vp pack --watch",
+		"release": "bumpp",
+		"prepublishOnly": "vp run build",
+		"chromel": "npx puppeteer browsers install chrome-headless-shell"
 	},
 	"peerDependencies": {
 		"@mermaid-js/mermaid-cli": "11.12.0",
@@ -60,24 +45,25 @@
 		"zod": "4.1.13"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.3.8",
+		"vite-plus": "^0.1.24",
+		"@arethetypeswrong/core": "^0.18.3",
 		"@bjmhe/automd": "^0.0.7",
 		"@bjmhe/bjmhe": "^1.0.2",
 		"@bjmhe/viteplus-preset": "^2.0.3",
 		"@tsconfig/node24": "^24.0.4",
-		"@types/node": "24.10.2",
-		"@vitest/coverage-v8": "4.0.15",
-		"automd": "0.4.2",
-		"changelogen": "0.6.2",
-		"commitizen": "4.3.1",
-		"cz-conventional-changelog": "3.3.0",
-		"globals": "16.5.0",
-		"husky": "9.1.7",
-		"typescript": "5.9.3",
-		"unbuild": "3.6.1",
-		"vite": "7.2.7",
-		"vite-plus": "catalog:",
-		"vitest": "4.0.15"
+		"@types/node": "^25.9.1",
+		"@typescript/native-preview": "7.0.0-dev.20260601.1",
+		"@vitest/coverage-v8": "^4.1.8",
+		"bumpp": "^11.1.0",
+		"publint": "^0.3.21",
+		"tsnapi": "^0.3.3",
+		"typescript": "^6.0.3",
+		"unplugin-unused": "^0.5.7"
 	},
-	"packageManager": "pnpm@10.13.1"
+	"packageManager": "pnpm@10.13.1",
+	"module": "./dist/index.js",
+	"exports": {
+		".": "./dist/index.js",
+		"./package.json": "./package.json"
+	}
 }

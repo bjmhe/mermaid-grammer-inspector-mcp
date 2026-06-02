@@ -4,7 +4,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vite-plus/test";
 import { checkMermaid } from "./check";
 import { ParseStatus } from "./parse";
 
