@@ -8,18 +8,25 @@
     "MCP",
     "Mermaid"
   ],
+  "homepage": "https://github.com/bjmhe/mermaid-grammer-inspector-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/bjmhe/mermaid-grammer-inspector-mcp/issues"
+  },
   "license": "MIT",
+  "author": "Benjamin He <hi@bjmhe.me>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/betterhyq/mermaid_grammer_inspector_mcp.git"
+    "url": "git+https://github.com/bjmhe/mermaid_grammer_inspector_mcp.git"
   },
   "bin": {
     "mermaid-grammer-inspector-mcp": "./dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "type": "module",
+  "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -36,7 +43,7 @@
     "dev": "vp pack --watch",
     "release": "bumpp",
     "prepublishOnly": "vp run build",
-    "chromel": "npx puppeteer browsers install chrome-headless-shell"
+    "chrome": "npx puppeteer browsers install chrome-headless-shell"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.24.3",
@@ -64,6 +71,8 @@
     "@mermaid-js/mermaid-cli": "11.12.0",
     "puppeteer": "23.11.1"
   },
-  "packageManager": "pnpm@10.13.1",
-  "mcpName": "Mermaid Grammer Inspector MCP"
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "packageManager": "pnpm@11.4.0"
 }

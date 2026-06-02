@@ -11,6 +11,7 @@ allowBuilds:
   libpq: set this to true or false
   msw: set this to true or false
   prisma: set this to true or false
+  puppeteer: true
   sqlite3: set this to true or false
   unrs-resolver: set this to true or false
   utf-8-validate: set this to true or false
