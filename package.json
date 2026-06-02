@@ -48,7 +48,7 @@
   "dependencies": {
     "commander": "14.0.2",
     "fastmcp": "3.25.3",
-    "zod": "4.1.13"
+    "zod": "4.4.3"
   },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.3",

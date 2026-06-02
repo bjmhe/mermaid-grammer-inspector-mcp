@@ -19,8 +19,8 @@ importers:
         specifier: 3.25.3
         version: 3.25.3
       zod:
-        specifier: 4.1.13
-        version: 4.1.13
+        specifier: 4.4.3
+        version: 4.4.3
     devDependencies:
       '@arethetypeswrong/core':
         specifier: ^0.18.3
@@ -2328,8 +2328,8 @@ packages:
     peerDependencies:
       zod: ^3.25.28 || ^4
 
-  zod@4.1.13:
-    resolution: {integrity: sha512-AvvthqfqrAhNH9dnfmrfKzX5upOdjUVJYFqNSlkmGf64gRaTzlPwz99IHYnVs28qYAybvAlBV+H7pn0saFY4Ig==}
+  zod@4.4.3:
+    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
 snapshots:
 
@@ -2492,7 +2492,7 @@ snapshots:
     dependencies:
       '@braidai/lang': 1.1.2
 
-  '@modelcontextprotocol/sdk@1.29.0(zod@4.1.13)':
+  '@modelcontextprotocol/sdk@1.29.0(zod@4.4.3)':
     dependencies:
       '@hono/node-server': 1.19.14(hono@4.12.23)
       ajv: 8.20.0
@@ -2509,8 +2509,8 @@ snapshots:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
-      zod: 4.1.13
-      zod-to-json-schema: 3.25.2(zod@4.1.13)
+      zod: 4.4.3
+      zod-to-json-schema: 3.25.2(zod@4.4.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -3339,7 +3339,7 @@ snapshots:
 
   fastmcp@3.25.3:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.29.0(zod@4.1.13)
+      '@modelcontextprotocol/sdk': 1.29.0(zod@4.4.3)
       '@standard-schema/spec': 1.1.0
       execa: 9.6.1
       file-type: 21.3.4
@@ -3348,10 +3348,10 @@ snapshots:
       strict-event-emitter-types: 2.0.0
       undici: 7.27.0
       uri-templates: 0.2.0
-      xsschema: 0.4.0-beta.5(zod-to-json-schema@3.25.2(zod@4.1.13))(zod@4.1.13)
+      xsschema: 0.4.0-beta.5(zod-to-json-schema@3.25.2(zod@4.4.3))(zod@4.4.3)
       yargs: 18.0.0
-      zod: 4.1.13
-      zod-to-json-schema: 3.25.2(zod@4.1.13)
+      zod: 4.4.3
+      zod-to-json-schema: 3.25.2(zod@4.4.3)
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - '@valibot/to-json-schema'
@@ -4226,10 +4226,10 @@ snapshots:
 
   ws@8.21.0: {}
 
-  xsschema@0.4.0-beta.5(zod-to-json-schema@3.25.2(zod@4.1.13))(zod@4.1.13):
+  xsschema@0.4.0-beta.5(zod-to-json-schema@3.25.2(zod@4.4.3))(zod@4.4.3):
     optionalDependencies:
-      zod: 4.1.13
-      zod-to-json-schema: 3.25.2(zod@4.1.13)
+      zod: 4.4.3
+      zod-to-json-schema: 3.25.2(zod@4.4.3)
 
   y18n@5.0.8: {}
 
@@ -4248,8 +4248,8 @@ snapshots:
 
   yoctocolors@2.1.2: {}
 
-  zod-to-json-schema@3.25.2(zod@4.1.13):
+  zod-to-json-schema@3.25.2(zod@4.4.3):
     dependencies:
-      zod: 4.1.13
+      zod: 4.4.3
 
-  zod@4.1.13: {}
+  zod@4.4.3: {}
