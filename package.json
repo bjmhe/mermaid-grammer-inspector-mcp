@@ -46,7 +46,6 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.24.3",
     "commander": "14.0.2",
     "fastmcp": "3.25.3",
     "zod": "4.1.13"
@@ -66,10 +65,6 @@
     "typescript": "^6.0.3",
     "unplugin-unused": "^0.5.7",
     "vite-plus": "^0.1.24"
-  },
-  "peerDependencies": {
-    "@mermaid-js/mermaid-cli": "11.12.0",
-    "puppeteer": "23.11.1"
   },
   "engines": {
     "node": ">=24.16.0"

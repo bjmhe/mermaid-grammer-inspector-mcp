@@ -11,16 +11,15 @@ jobs:
         uses: bjmhe/workflows/setup-vp@vp
         with:
           node-version: 24
-          auto-install: 'false'
 
-      - name: Clean Puppeteer Cache
-        run: rm -rf "$HOME/.cache/puppeteer"
-
-      - name: Install dependencies
-        run: PUPPETEER_SKIP_DOWNLOAD=true vp install
+      - name: Install @mermaid-js/mermaid-cli
+        run: vp install @mermaid-js/mermaid-cli -g
 
       - name: Install Puppeteer
-        run: npx puppeteer browsers install chrome-headless-shell
+        run: PUPPETEER_SKIP_DOWNLOAD=true vp install puppeteer -g
+
+      - name: Install Chrome
+        run: puppeteer browsers install chrome-headless-shell
 
       - name: Build
         run: vp run build
