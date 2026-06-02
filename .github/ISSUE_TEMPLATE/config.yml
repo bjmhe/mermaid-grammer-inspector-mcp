@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 贡献指南
+    url: /CONTRIBUTING.md
+    about: 开发环境、PR 流程、Issue 与安全披露说明
+  - name: 🔒 安全漏洞报告
+    url: /SECURITY.md
+    about: 请勿在公开 Issue 讨论漏洞；请按安全策略通过私密渠道报告
+  - name: ⁉️ 为什么需要最小复现？
+    url: https://antfu.me/posts/why-reproductions-are-required
+    about: 最小复现有助于维护者更快定位与修复缺陷

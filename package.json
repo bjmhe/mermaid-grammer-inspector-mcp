@@ -61,6 +61,10 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.3.8",
+		"@bjmhe/automd": "^0.0.7",
+		"@bjmhe/bjmhe": "^1.0.2",
+		"@bjmhe/viteplus-preset": "^2.0.3",
+		"@tsconfig/node24": "^24.0.4",
 		"@types/node": "24.10.2",
 		"@vitest/coverage-v8": "4.0.15",
 		"automd": "0.4.2",
@@ -72,6 +76,7 @@
 		"typescript": "5.9.3",
 		"unbuild": "3.6.1",
 		"vite": "7.2.7",
+		"vite-plus": "catalog:",
 		"vitest": "4.0.15"
 	},
 	"packageManager": "pnpm@10.13.1",

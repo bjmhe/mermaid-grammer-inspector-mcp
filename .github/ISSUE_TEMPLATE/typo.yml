@@ -1,0 +1,30 @@
+name: 👀 文档 / 笔误修正
+description: 报告或修正文档、注释中的笔误与表述问题
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 欢迎提交 PR！
+
+        若是简单、明确的笔误或表述问题，你可以**直接提交 PR** 修正（参见 [贡献指南](/CONTRIBUTING.md)）。
+        若发现多处类似问题，建议合并到一个 PR 中提交。
+
+        纯文档类改动在 [贡献指南](/CONTRIBUTING.md) 的 AI 政策中有单独说明；若使用 AI 辅助，请自行仔细审查后再提交。
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 位置与说明
+      description: 文件路径、段落或截图；若已提交 PR 可附上链接。
+      placeholder: |
+        - 文件：`docs/foo.md` 第 12 行
+        - 问题：「…」应为「…」
+
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已阅读 [行为准则](/CODE_OF_CONDUCT.md) 与 [贡献指南](/CONTRIBUTING.md)
+          required: true

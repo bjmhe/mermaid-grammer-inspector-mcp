@@ -1,0 +1,82 @@
+name: 🐞 缺陷报告
+description: 报告一个可复现的缺陷
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **开始之前**
+
+        本表单仅用于提交**可复现的缺陷**。若你只是使用上的问题，或不确定是否为缺陷，请先：
+        - 阅读 [README](/README.md) 与 [贡献指南](/CONTRIBUTING.md)
+        - 在本仓库 **Discussions** 中提问（若已启用）
+
+        请先搜索是否已有类似 Issue。若某个已关闭的旧 Issue 在最新版中仍然存在，请用本表单**新建** Issue，而不要在原 Issue 下继续评论。
+
+        > [!WARNING]
+        > **安全提示**：若你发现的是可被利用的安全漏洞，**请勿**在此提交公开 Issue，请按 [安全策略](/SECURITY.md) 通过私密渠道报告。
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 复现信息
+
+        > [!CAUTION]
+        > **这是最重要的一部分。**
+        > 请提供**最小复现**（步骤、命令、环境等），否则 Issue 可能会被关闭。
+
+        可参考：[为什么需要最小复现？](https://antfu.me/posts/why-reproductions-are-required)
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤或链接
+      description: 版本号、操作步骤、相关命令；如有最小仓库链接请附上。
+      placeholder: |
+        1. 安装 xxx@x.x.x
+        2. 执行 `xxx --foo`
+        3. 出现错误：...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 操作系统、运行时版本、包管理器等（如适用）
+      placeholder: |
+        - OS: macOS 15.x
+        - Node: v24.x
+        - pnpm: 11.x
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充说明
+      description: 其他有助于排查的背景信息
+
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已阅读 [行为准则](/CODE_OF_CONDUCT.md) 与 [贡献指南](/CONTRIBUTING.md)
+          required: true
+        - label: 我已搜索现有 Issue，确认没有重复的缺陷报告
+          required: true
