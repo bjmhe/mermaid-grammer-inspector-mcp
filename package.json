@@ -1,6 +1,6 @@
 {
   "name": "@bjmhe/mermaid-grammer-inspector-mcp",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities",
   "keywords": [
     "AI",
