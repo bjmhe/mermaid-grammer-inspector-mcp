@@ -16,7 +16,7 @@
   "author": "Benjamin He <hi@bjmhe.me>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjmhe/mermaid_grammer_inspector_mcp.git"
+    "url": "git+https://github.com/bjmhe/mermaid-grammer-inspector-mcp.git"
   },
   "bin": {
     "mermaid-grammer-inspector-mcp": "./dist/index.js"
