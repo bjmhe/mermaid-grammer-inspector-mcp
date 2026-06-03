@@ -77,11 +77,11 @@ set the config
 
 <!-- automd:contributors license=MIT -->
 
-Published under the [MIT](https://github.com/bjmhe/mermaid-grammer-inspector-mcp/blob/main/LICENSE) license.
-Made by [community](https://github.com/bjmhe/mermaid-grammer-inspector-mcp/graphs/contributors) 💛
+Published under the [MIT](https://github.com/bjmhe-archived/mermaid-grammer-inspector-mcp/blob/main/LICENSE) license.
+Made by [community](https://github.com/bjmhe-archived/mermaid-grammer-inspector-mcp/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/bjmhe/mermaid-grammer-inspector-mcp/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=bjmhe/mermaid-grammer-inspector-mcp" />
+<a href="https://github.com/bjmhe-archived/mermaid-grammer-inspector-mcp/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=bjmhe-archived/mermaid-grammer-inspector-mcp" />
 </a>
 
 <!-- /automd -->

@@ -8,15 +8,15 @@
     "MCP",
     "Mermaid"
   ],
-  "homepage": "https://github.com/bjmhe/mermaid-grammer-inspector-mcp#readme",
+  "homepage": "https://github.com/bjmhe-archived/mermaid-grammer-inspector-mcp#readme",
   "bugs": {
-    "url": "https://github.com/bjmhe/mermaid-grammer-inspector-mcp/issues"
+    "url": "https://github.com/bjmhe-archived/mermaid-grammer-inspector-mcp/issues"
   },
   "license": "MIT",
   "author": "Benjamin He <hi@bjmhe.me>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjmhe/mermaid-grammer-inspector-mcp.git"
+    "url": "git+https://github.com/bjmhe-archived/mermaid-grammer-inspector-mcp.git"
   },
   "bin": {
     "mermaid-grammer-inspector-mcp": "./dist/index.js"
