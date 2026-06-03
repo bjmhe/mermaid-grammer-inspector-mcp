@@ -39,6 +39,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
+    "start": "node dist/index.js",
     "test": "vp test",
     "build": "vp pack",
     "dev": "vp pack --watch",
