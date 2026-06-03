@@ -6,8 +6,6 @@
 [![bundle size](https://npmx.dev/api/registry/badge/size/@bjmhe/mermaid-grammer-inspector-mcp)](https://bundlephobia.com/package/@bjmhe/mermaid-grammer-inspector-mcp)
 [![license](https://npmx.dev/api/registry/badge/license/@bjmhe/mermaid-grammer-inspector-mcp)](https://github.com/betterhyq/mermaid_grammer_inspector_mcp/blob/main/LICENSE)
 
-[![Mermaid-Grammer-Inspector MCP server](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector/badges/card.svg)](https://glama.ai/mcp/servers/bjmhe/Mermaid-Grammer-Inspector)
-
 A Model Context Protocol (MCP) server for validating Mermaid diagram syntax and providing comprehensive grammar checking capabilities
 
 ## Usage
